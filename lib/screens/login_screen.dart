@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kape_kristiyano/screens/menu_screen.dart'; // Import the menu_screen.dart file
+import 'package:kape_kristiyano/screens/home_screen.dart'; // Import the menu_screen.dart file
 import 'package:kape_kristiyano/screens/register_screen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -20,7 +20,7 @@ class _LoginScreenState extends State<LoginScreen> {
       // Navigate to the menu screen
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => MenuScreen()),
+        MaterialPageRoute(builder: (context) => HomeScreen()),
       );
     }
   }

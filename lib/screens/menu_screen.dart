@@ -11,7 +11,6 @@ class MenuScreen extends StatefulWidget {
 
 class _MenuScreenState extends State<MenuScreen> {
   List<CoffeeItem> menuItems = [];
-  int _currentIndex = 0;
 
   @override
   void initState() {
@@ -29,21 +28,6 @@ class _MenuScreenState extends State<MenuScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 159, 105, 56),
-        flexibleSpace: Align(
-          alignment: Alignment.center,
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16.0),
-            child: Image.asset(
-              'assets/images/logo-white.png', // Replace 'assets/logo.png' with the actual path to your logo image
-              width: 100.0,
-              height: 100.0,
-            ),
-          ),
-        ),
-        title: Text(''),
-      ),
       body: SafeArea(
         child: Stack(
           children: <Widget>[
@@ -87,68 +71,6 @@ class _MenuScreenState extends State<MenuScreen> {
                   ],
                 );
               },
-            ),
-            Positioned(
-              bottom: 0,
-              left: 0,
-              right: 0,
-              child: BottomNavigationBar(
-                iconSize: 30,
-                type: BottomNavigationBarType.fixed,
-                currentIndex: _currentIndex,
-                selectedItemColor: Color.fromARGB(255, 159, 105, 56),
-                onTap: (index) {
-                  setState(() {
-                    _currentIndex = index;
-                  });
-                },
-                items: [
-                  BottomNavigationBarItem(
-                    icon: const Icon(
-                      Icons.home,
-                      color: const Color.fromARGB(255, 97, 95, 95),
-                    ),
-                    activeIcon: Icon(
-                      Icons.home,
-                      color: const Color.fromARGB(255, 159, 105, 56),
-                    ),
-                    label: 'Home',
-                  ),
-                  BottomNavigationBarItem(
-                    icon: Icon(
-                      Icons.history,
-                      color: const Color.fromARGB(255, 97, 95, 95),
-                    ),
-                    activeIcon: Icon(
-                      Icons.history,
-                      color: const Color.fromARGB(255, 159, 105, 56),
-                    ),
-                    label: 'Activity',
-                  ),
-                  BottomNavigationBarItem(
-                    icon: Icon(
-                      Icons.shopping_cart,
-                      color: const Color.fromARGB(255, 97, 95, 95),
-                    ),
-                    activeIcon: Icon(
-                      Icons.shopping_cart,
-                      color: const Color.fromARGB(255, 159, 105, 56),
-                    ),
-                    label: 'Cart',
-                  ),
-                  BottomNavigationBarItem(
-                    icon: Icon(
-                      Icons.account_circle,
-                      color: const Color.fromARGB(255, 97, 95, 95),
-                    ),
-                    activeIcon: Icon(
-                      Icons.account_circle,
-                      color: const Color.fromARGB(255, 159, 105, 56),
-                    ),
-                    label: 'Account',
-                  ),
-                ],
-              ),
             ),
           ],
         ),
