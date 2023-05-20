@@ -33,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
     return Scaffold(
       body: Container(
-        color: Colors.white,
+        color: Colors.black,
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,

@@ -14,7 +14,7 @@ class MenuService {
             'An espresso shot from our 100% KK Arabica beans with a rich combination of chocolate and milk',
         'category': 'Cold Brew Fantasies',
         'img':
-            'https://kapekristiano.com/wp-content/uploads/2022/09/Sensation-150x150.jpg',
+            'https://kapekristiano.com/wp-content/uploads/2023/05/sensation-500x500-2.png',
         'price': 170.0
       },
       {
@@ -23,7 +23,7 @@ class MenuService {
             'One espresso shot from our 100% KK Arabica beans with a creamy experience from of KK special mix served over ice.',
         'category': 'Cold Brew Fantasies',
         'img':
-            'https://kapekristiano.com/wp-content/uploads/2022/09/Smooth-150x150.jpg',
+            'https://kapekristiano.com/wp-content/uploads/2023/05/smooth-500x500-1.png',
         'price': 155.0
       },
       {
@@ -32,7 +32,7 @@ class MenuService {
             'Double espresso shot from our 100% KK Arabica beans with a creamy experience from of KK special mix served over ice',
         'category': 'Cold Brew Fantasies',
         'img':
-            'https://kapekristiano.com/wp-content/uploads/2022/09/Strong-150x150.jpg',
+            'https://kapekristiano.com/wp-content/uploads/2023/05/strong-500x500-1.png',
         'price': 165.0
       },
       {
@@ -41,7 +41,7 @@ class MenuService {
             'Double espresso shot from our 100% KK Arabica beans for that extra kick, added with cold water to neutralize- served over ice.',
         'category': 'Cold Brew Fantasies',
         'img':
-            'https://kapekristiano.com/wp-content/uploads/2022/09/Super-Strong-150x150.jpg',
+            'https://kapekristiano.com/wp-content/uploads/2023/05/super-strong-500x500-1.png',
         'price': 140.0
       },
       //Milk-Based Delights
@@ -51,7 +51,7 @@ class MenuService {
             'Combined strawberry flavor from mixed berries coupled with milk for a rich and deep sensation',
         'category': 'Milk-Based Delights',
         'img':
-            'https://kapekristiano.com/wp-content/uploads/2022/09/Strawberry-Sensation-150x150.jpg',
+            'https://kapekristiano.com/wp-content/uploads/2023/05/strawberry-sensation-500x500-1.png',
         'price': 175.0
       },
       {
@@ -60,7 +60,7 @@ class MenuService {
             'The flavor will keep you guessing what it is while at the same time keep sipping to your fullest satisfaction',
         'category': 'Milk-Based Delights',
         'img':
-            'https://kapekristiano.com/wp-content/uploads/2022/09/Fruity-Sensation-150x150.jpg',
+            'https://kapekristiano.com/wp-content/uploads/2023/05/fruity-sensation-500x500-1.png',
         'price': 175.0
       },
       {
@@ -69,7 +69,7 @@ class MenuService {
             'For non-coffee drinker- this is perfect for you. Nothing but creaminess and an out of this world experience',
         'category': 'Milk-Based Delights',
         'img':
-            'https://kapekristiano.com/wp-content/uploads/2022/09/Super-Smooth-150x150.jpg',
+            'https://kapekristiano.com/wp-content/uploads/2023/05/super-smooth-500x500-1.png',
         'price': 175.0
       },
       //Tea-Based Delights
@@ -79,7 +79,7 @@ class MenuService {
             'Passion fruit, black tea and a delicate mix of ingredients giving a passionate flavor that touches your soul.',
         'category': 'Tea-Based Delights',
         'img':
-            'https://kapekristiano.com/wp-content/uploads/2022/09/Fruity-Passion-150x150.jpg',
+            'https://kapekristiano.com/wp-content/uploads/2023/05/Fruity-Passion500x500.png',
         'price': 145.0
       },
       {
@@ -88,7 +88,7 @@ class MenuService {
             'Strawberry, raspberry & black tea- mixed altogether for a delightful thirst-quenching experience',
         'category': 'Tea-Based Delights',
         'img':
-            'https://kapekristiano.com/wp-content/uploads/2022/09/Double-Berry-Delight-150x150.jpg',
+            'https://kapekristiano.com/wp-content/uploads/2023/05/Double-Berry-500x500-1.png',
         'price': 150.0
       },
       // Something Fizzy
@@ -98,7 +98,7 @@ class MenuService {
             'EMixed berry juice extract with a tad of secret concoction that will make you feel bubbly and light- this is a must try experience',
         'category': 'Something Fizzy',
         'img':
-            'https://kapekristiano.com/wp-content/uploads/2022/09/Fizzy-Berry-150x150.jpg',
+            'https://kapekristiano.com/wp-content/uploads/2023/05/fizzy-beery-500x500-1.png',
         'price': 175.0
       },
       {
@@ -107,7 +107,7 @@ class MenuService {
             'Cucumber extract with a tad of secret concoction that will make you feel bubbly and light- this is a must try experience',
         'category': 'Something Fizzy',
         'img':
-            'https://kapekristiano.com/wp-content/uploads/2022/09/Fizzy-Cucumber-150x150.jpg',
+            'https://kapekristiano.com/wp-content/uploads/2023/05/fizzy-cucumber-500x500-1.png',
         'price': 175.0
       },
       {
@@ -116,7 +116,7 @@ class MenuService {
             'A squeeze of lemon with a tad of secret concoction that will make you feel bubbly and light- this is a must try experience',
         'category': 'Something Fizzy',
         'img':
-            'https://kapekristiano.com/wp-content/uploads/2022/09/Fizzy-Lemon-150x150.jpg',
+            'https://kapekristiano.com/wp-content/uploads/2023/05/fizzy-lemon-500x500-1.png',
         'price': 175.0
       },
       // Add more menu items as needed

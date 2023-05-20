@@ -38,13 +38,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: const Color.fromARGB(255, 159, 105, 56),
+          backgroundColor: Colors.black,
           flexibleSpace: Align(
             alignment: Alignment.center,
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: Image.asset(
-                'assets/images/logo-white.png', // Replace 'assets/logo.png' with the actual path to your logo image
+                'assets/images/logo.png', // Replace 'assets/logo.png' with the actual path to your logo image
                 width: 100.0,
                 height: 100.0,
               ),
