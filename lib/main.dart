@@ -1,7 +1,9 @@
 // main.dart
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, unused_import
 
 import 'package:flutter/material.dart';
+import 'package:kape_kristiyano/screens/home_screen.dart';
+import 'package:kape_kristiyano/screens/menu_screen.dart';
 import 'package:kape_kristiyano/screens/splash_screen.dart';
 import 'package:kape_kristiyano/screens/login_screen.dart';
 
@@ -19,7 +21,7 @@ class CoffeeApp extends StatelessWidget {
       ),
       home: SplashScreen(),
       routes: {
-        '/login': (context) => LoginScreen(),
+        '/Home': (context) => HomeScreen(),
       },
     );
   }

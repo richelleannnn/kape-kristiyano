@@ -40,7 +40,7 @@ class _MenuScreenState extends State<MenuScreen> {
               children: [
                 Container(
                   child: Image.network(
-                    'https://kapekristiano.com/wp-content/uploads/2023/05/297272563_1249217379157329_5716517225364681815_n.jpg',
+                    'https://kapekristiano.com/wp-content/uploads/2023/05/banner2.jpg',
                     fit: BoxFit.cover,
                   ),
                 ), // Replace BannerWidget with your own banner widget
